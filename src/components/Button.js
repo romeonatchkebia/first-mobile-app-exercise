@@ -11,12 +11,12 @@ export default function Button({ label, theme, onPress }) {
         ]}
       >
         <Pressable
-          style={[styles.button, { backgroundColor: "#fff" }]}
+          style={[styles.button, { backgroundColor: "#ggg" }]}
           onPress={onPress}
         >
           <FontAwesome
             name="picture-o"
-            size={25}
+            size={18}
             color="#25292e"
             style={styles.buttonIcon}
           />
