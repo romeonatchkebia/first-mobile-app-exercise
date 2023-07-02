@@ -1,7 +1,5 @@
 import { StyleSheet, View, Pressable, Text } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
-import { Ionicons } from "@expo/vector-icons";
-import { Feather } from "@expo/vector-icons";
 
 export default function Button({ label, theme, onPress }) {
   if (theme === "primary") {
